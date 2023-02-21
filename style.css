@@ -157,11 +157,20 @@ h3 {
     background-color: rgb(45, 45, 45);
     color: var(--bs-white);
     padding: 24px;
+    display: none;
     /* text-align: left; */
 }
 
 .button:hover {
     background-color: var(--bs-gray);
+}
+
+.active {
+    display: block;
+}
+
+.active-img {
+    transform: rotate(45deg);
 }
 
 a {
