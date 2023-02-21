@@ -72,7 +72,15 @@ body {
     border-radius: 5px;
 }
 
-.select-div select {
+.select-s-div {
+    margin: 30px 0;
+    width: 150px;
+    padding: 4px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.select-div select,.select-s-div select {
     background-color: transparent;
     color: var(--bs-white);
     border: 0px;
@@ -112,22 +120,59 @@ h3 {
     text-align: center;
 }
 
-.main-content div {
+.main-content div,.main-diver div {
     margin-top: 15px;
 }
 
-.main-content input {
+.main-content input,.main-diver input {
     padding: 12px 16px;
     border: none;
 }
 
-.main-content button {
+.main-content button,.main-diver button {
     border: none;
     font-size: 24px;
     font-weight: 500;
     background: rgb(229, 9, 20);
     color: rgb(255, 255, 255);
     border-radius: 5px;
+}
+
+.button {
+    width: 100%;
+    font-size: 24px;
+    background-color: rgb(45, 45, 45);
+    color: var(--bs-white);
+    padding: 24px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.button img {
+    float: right;
+}
+.button-div {
+    width: 100%;
+    font-size: 24px;
+    background-color: rgb(45, 45, 45);
+    color: var(--bs-white);
+    padding: 24px;
+    /* text-align: left; */
+}
+
+.button:hover {
+    background-color: var(--bs-gray);
+}
+
+a {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    /* padding-bottom: 20px!important; */
+}
+
+li {
+    list-style-type: none;
+    padding-top: 10px;
 }
 
 
