@@ -9,7 +9,8 @@ function show(evt) {
         // allElement[i].classList.add('active');
         if (i == evt) {
             if(allElement[i].classList.contains('active')) {
-
+                allElement[i].classList.remove('active');
+                allImages[i].classList.remove('active-img');
             }else {
                 allElement[i].classList.add('active');
                 allImages[i].classList.add('active-img');
